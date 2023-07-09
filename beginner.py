@@ -57,47 +57,47 @@ The steps to get the most out of this file is:
 # = Variable usage with integer data type
 # + Capabilities: basic arithmetic operations, comparison operations and bitwise operations
 # - Limitations: overflow and underflow, division behavior, and memory usage
-
+\"""
 print(' ~ Start of the example of variable usage with integer data type ~ ')
 integer_variable = int(input('Variable \"integer_variable" was just created. Please, assign a value to it: ')) 
 # Remember, it can be almost any integer number from -♾️ to ♾️ 
 print ('Thanks, now the value of the variable \"integer_variable\" is:',integer_variable)
 print(' ~ Finish of the example of variable usage with integer data type  ~ ')
 print()
-
+\"""
 # = Variable usage with 'float' data type
 # + Capabilities: basic arithmetic operations, comparison operations, floating-point precision and scientific computing libraries.
 # - Limitations: extreme case precision errors, limited range, speed
-
+\"""
 print('~ Start of the example of variable usage with float data type ~')
 float_variable = float(input('Variable \"float_variable\" was just created. Please, assign a value to it: ')) 
 #It can be almost any floating point number from -♾️ to ♾️ 
 print ('Thanks, now the value of the variable \"float_variable\" is:',float_variable)
 print('~ Finish of the example of variable usage with float data type ~')
 print()
-
+\"""
 # Variable usage with 'string' data type
 # -Capabilities: basic string operations, string formatting, string manipulation, unicode support
 # -Limitations: immutability, memory usage and encoding issues
-
+\"""
 print('~ Start of the example of variable usage with string data type ~')
 string_variable = input('Variable \"string_variable\" was created. Please, assign a value to it: ') 
 # It can include almost any ammount of letters, digits, and symbols.
 print ('Thanks, now the value of the variable \"string_variable\" is:',string_variable)
 print('~ Finish of the example of variable usage with string data type  ~')
 print()
-
+\"""
 # Variable example with usage of 'boolean' data type
 # -Capabilities: logical operations, comparison operations, control flow, boolean conversion and logical shortcuts
 # -Limitations: limited values, limited arithmetic operations, potential confusion with different data types
-
+\"""
 print('~ Start of the example of variable usage with boolean data type ~')
 boolean_variable = True
 print('Variable \"boolean_variable\" was just created. To modify it\'s value with user input more advanced knowledge is required')
 print('The value of the \"boolean_variable\" variable is:',boolean_variable)
 print('~ Finish of the example of variable usage with boolena data type  ~')
 print()
-
+\"""
 # / Subject: Objects
 # / Explanation: Tools for storing data inside memory for later usage. 
 
@@ -112,14 +112,14 @@ print()
 # Variable example with usage of 'boolean' data type
 # -Capabilities: logical operations, comparison operations, control flow, boolean conversion and logical shortcuts
 # -Limitations: limited values, limited arithmetic operations, potential confusion with different data types
-
+\"""
 print('~ Start of the example of variable usage with boolean data type ~')
 boolean_variable = True
 print('Variable \"boolean_variable\" was just created. To modify it\'s value with user input more advanced knowledge is required')
 print('The value of the \"boolean_variable\" variable is:',boolean_variable)
 print('~ Finish of the example of variable usage with boolena data type  ~')
 print()
-
+\"""
 #! REMEMBER TO TAKE 10 MINUTES BREAKES EVERY 50 MINUTES OF READING
 
 # Operators: Tools to implement interaction between data strutures, flow control and more
@@ -133,7 +133,7 @@ print()
 # Addition operator usage (+): Adds two values together.
 # + Capabilities:
 # -Limitations:
-
+\"""
 print('~ Start of the example of addition operator usage ~')
 print('The next arithmetic operation will be performed after values are assigned:')
 print('AdditionExample = AdditionExample_value_1 + AdditionExample_value_2')
@@ -145,9 +145,9 @@ print('The value of the \"AdditionExample\" variable was set to: ',AdditionExamp
 print(AdditionExample,'=',AdditionExample_value_1,'+',AdditionExample_value_2)
 print('~ Finish of the example of addition operator usage  ~')
 print()
-
+\"""
 #Substraction operator usage (-): Substracts the second value from the first.
-
+\"""
 print('~ Start of the example of substraction operator usage ~')
 print('The next arithmetic operation will be performed after required values are assigned:')
 print('SubstractionExample = SubstractionExample_value_1 + SubstractionExample_value_2')
@@ -159,9 +159,9 @@ print(SubstractionExample,'=',SubstractionExample_value_1,'-',SubstractionExampl
 print('The value of the \"SubstractionExample\" variable was set to:',SubstractionExample)
 print('~ Finish of the example of substraction operator usage  ~')
 print()
-
+\"""
 #Multiplication (*): Multiplies two values together.
-
+\"""
 print('~ Start of the example of multiplication operator usage ~')
 print('The next arithmetic operation will be performed after required values are assigned:')
 print('MultiplicationExample = MultiplicationExample_value_1 * MultiplicationExample_value_2')
@@ -173,9 +173,9 @@ print(MultiplicationExample,'=',MultiplicationExample_value_1,'*',Multiplication
 print('The value of the \"MultiplicationExample\" variable was set to:',MultiplicationExample)
 print('~ Finish of the example of multiplication operator usage  ~')
 print()
-
+\"""
 #Division (/): Divides the first value by the second.
-
+\"""
 print('~ Start of the example of division operator usage ~')
 print('The next arithmetic operation will be performed after required values are assigned:')
 print('DivisionExample = DivisionExample_value_1 / DivisionExample_value_2')
@@ -187,9 +187,9 @@ print(DivisionExample,'=',DivisionExample_value_1,'/',DivisionExample_value_2)
 print('The value of the \"DivisionExample\" variable was set to:',DivisionExample)
 print('~ Finish of the example of division operator usage  ~')
 print()
-
+\"""
 #Modulus (%): Returns the remainder of the division of the first value by the second.
-
+\"""
 print('~ Start of the example of modulus operator usage ~')
 print('The next arithmetic operation will be performed after required values are assigned')
 print('ModulusExample = ModulusExample_value_1 % ModulusExample_value_2')
@@ -201,9 +201,9 @@ print('The remainder of',ModulusExample_value_1,'divided by',ModulusExample_valu
 print('The value of the \"ModulusExample\" variable was set to:',ModulusExample)
 print('~ Finish of the example of modulus operator usage ~')
 print()
-
+\"""
 #Exponentiation (**): Raises the first value to the power of the second.
-
+\"""
 print('~ Start of example: exponentiation operator usage ~')
 print('The next arithmetic operation will be performed after required values are assigned')
 print('ExponentiationExample = ExponentiationExample_value_1 ** ExponentiationExample_value_2')
@@ -215,13 +215,13 @@ print(ExponentiationExample_value_1,'rised to the power of',ExponentiationExampl
 print('The value of the \"ExponentiationExample\" variable was set to:',ExponentiationExample)
 print('~ Finish of example: exponentiation operator usage ~')
 print()
-
+\"""
 #! REMEMBER TO TAKE 10 MINUTES BREAKES EVERY 50 MINUTES OF READING. WALKING OUTSIDE AND DRINKING WATER IS ADVISED.
 
 Comparison Operators:
 
 # Equal to (==): Returns True if the first value is equal to the second.
-"""
+\"""
 print('~ Start of example: "Equal to" comparison operator usage ~')
 print('The next logic operation will be performed after required values are assigned')
 print('(EqualToExample_value_1 == EqualToExample_value_2) > EqualToExample')
@@ -236,9 +236,9 @@ print('The variable "EqualToExample_value_1" value is:',EqualToExample_value_1,'
 print('So the result of the logical comparison between those two variables ends up assigning the next value to the "EqualToExample" variable:', EqualToExample)
 print('~ Finish of example: "Equal to" comparison operator usage ~')
 print()
-"""
+\"""
 #Not equal to (!=): Returns True if the first value is not equal to the second.
-
+\"""
 print('~ Start of example: "Not equal to" comparison operator usage ~')
 print('The next logic operation will be performed after required values are assigned')
 print('(NotEqualToExample_value_1 != NotEqualToExample_value_2) > NotEqualToExample')
@@ -253,9 +253,9 @@ print('The variable "NotEqualToExample_value_1" value is:',NotEqualToExample_val
 print('So the result of the "Not equal to" comparison between those two variables ends up assigning the next value to the "NotEqualToExample" variable:',NotEqualToExample)
 print('~ Finish of example: "Not Equal to" comparison operator usage ~')
 print()
-
+\"""
 # Greater than (>): Returns True if the first value is greater than the second.
-
+\"""
 print('~ Start of example: "Greater than" comparison operator usage ~')
 print('The next logic operation will be performed after required values are assigned')
 print('(GreaterThanExample_value_1 > GreaterThanExample_value_2) > GreaterThanExample')
@@ -270,9 +270,9 @@ print('The variable "GreaterThanExample_value_1" value is:',GreaterThanExample_v
 print('So the result of the logical comparison between those two variables ends up assigning the next value to the "GreaterThanExample" variable:', GreaterThanExample)
 print('~ Finish of example: "Greater than" comparison operator usage ~')
 print()
-
+\"""
 # Less than (<): Returns True if the first value is less than the second.
-
+\"""
 print('~ Start of example: "Less than" comparison operator usage ~')
 print('The next logic operation will be performed after required values are assigned')
 print('(LessThanExample_value_1 < LessThanExample_value_2) = LessThanExample')
@@ -287,9 +287,9 @@ print('The variable "LessThanExample_value_1" value is:',LessThanExample_value_1
 print('So the result of the logical comparison between those two variables ends up assigning the next value to the "LessThanExample" variable:', LessThanExample)
 print('~ Finish of example: "Greater than" comparison operator usage ~')
 print()
-
+\"""
 # Greater than or equal to (>=): Returns True if the first value is greater than or equal to the second.
-
+\"""
 print('~ Start of example: "Greater than or equal to" comparison operator usage ~')
 print('The next logic operation will be performed after required values are assigned')
 print('(GreaterThanOrEqualToExample_value_1 == GreaterThanOrEqualToExample_value_2) > GreaterThanOrEqualToExample')
@@ -304,9 +304,9 @@ print('The variable "GreaterThanOrEqualToExample_value_1" value is:',GreaterThan
 print('So the result of the logical comparison between those two variables ends up assigning the next value to the "GreaterThanOrEqualToExample" variable:', GreaterThanOrEqualToExample)
 print('~ Finish of example: "Greater than or equal to" comparison operator usage ~')
 print()
-
+\"""
 # Less than or equal to (<=): Returns True if the first value is less than or equal to the second.
-
+\"""
 print('~ Start of example: "Less than or equal to" comparison operator usage ~')
 print('The next logic operation will be performed after required values are assigned')
 print('(LessThanOrEqualToExample_value_1 == LessThanOrEqualToExample_value_2) > GreaterThanExample')
@@ -321,11 +321,11 @@ print('The variable "LessThanOrEqualToExample_value_1" value is:',LessThanOrEqua
 print('So the result of the logical comparison between those two variables ends up assigning the next value to the "LessThanOrEqualToExample" variable:', LessThanOrEqualToExample)
 print('~ Finish of example: "Less than or equal to" comparison operator usage ~')
 print()
-
+\"""
 # Logical Operators:
 
 # And (and): Returns True if both the first and second values are True.
-
+\"""
 print('~ Start of example: "And" logic operator usage ~')
 print('The next logic operation will be performed after required values are assigned')
 print('(AndExample_value_1 == AndExample_value_2) > AndExample')
@@ -340,9 +340,9 @@ print('The variable "AndExample_value_1" value is:',AndExample_value_1,', and th
 print('So the result of the logical comparison between those two variables ends up assigning the next value to the "AndExample" variable:', AndExample)
 print('~ Finish of example: "And" comparison operator usage ~')
 print()
-
+\"""
 # Or (or): Returns True if either the first or second value is True.
-
+\"""
 print('~ Start of example: "Or" logical operator usage ~')
 print('The next logic operation will be performed after required values are assigned')
 print('(OrExample_value_1 == OrExample_value_2) > OrExample')
@@ -357,9 +357,9 @@ print('The variable "OrExample_value_1" value is:',OrExample_value_1,', and the 
 print('So the result of the logical comparison between those two variables ends up assigning the next value to the "OrExample" variable:', OrExample)
 print('~ Finish of example: "Or" logic operator usage ~')
 print()
-
+\"""
 # Not (not): Returns True if the first value is False.
-
+\"""
 print('~ Start of example: "Not" comparison operator usage ~')
 print('The next logic operation will be performed after required values are assigned')
 print('(NotExample_value_1 == NotExample_value_2) > NotExample')
@@ -374,116 +374,131 @@ print('The variable "NotExample_value_1" value is:',NotExample_value_1,', and th
 print('So the result of the logical comparison between those two variables ends up assigning the next value to the "NotExample" variable:', NotExample)
 print('~ Finish of example: "Notn" comparison operator usage ~')
 print()
-
+\"""
 # Assignment Operators:
 
 # Assign (=): Assigns the value on the right to the variable on the left.
-
+\"""
 print('~ Start of example: "=" assignment operator usage ~')
 AssignExample = input('Variable \"AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"AssignExample\" is:',AssignExample)
 print('~ Finish of the example of variable usage with integer data type  ~')
 print()
-
+\"""
 # Add and assign (+=): Adds the value on the right to the variable on the left and assigns the result to the variable on the left.
-
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
-
+\"""
 # Subtract and assign (-=): Subtracts the value on the right from the variable on the left and assigns the result to the variable on the left.
-
+\"""
 print('~ Start of example: "Substract and assign" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "-=" assignment operator usage ~')
 print()
+\"""
 
-#Multiply and assign (*=): Multiplies the variable on the left by the value on the right and assigns the result to the variable on the left.
+# Multiply and assign (*=): Multiplies the variable on the left by the value on the right and assigns the result to the variable on the left.
 
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
+\"""
 
-#Divide and assign (/=): Divides the variable on the left by the value on the right and assigns the result to the variable on the left.
+# Divide and assign (/=): Divides the variable on the left by the value on the right and assigns the result to the variable on the left.
 
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
+\"""
 
 #Modulus and assign (%=): Calculates the remainder of dividing the variable on the left by the value on the right and assigns the result to the variable on the left.
 
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
+\"""
 
 #Exponentiation and assign (**=): Raises the variable on the left to the power of the value on the right and assigns the result to the variable on the left.
 
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
+\"""
 
 Bitwise Operators:
 
 #Bitwise AND (&): Performs a bitwise AND operation between the binary representations of the two values.
 
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
+\"""
 
 #Bitwise OR (|): Performs a bitwise OR operation between the binary representations of the two values.
 
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
+\"""
 
 #Bitwise XOR (^): Performs a bitwise XOR operation between the binary representations of the two values.
-
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
-
+\"""
 #Bitwise NOT (~): Performs a bitwise NOT operation on the binary representation of the value.
-
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
-
+\"""
 #Left shift (<<): Shifts the bits of the binary representation of the first value to the left by the number of positions specified by the second value.
-
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
-
+\"""
 #Right shift (>>): Shifts the bits of the binary representation of the first value to the right by the number of positions specified by the second value.
-
+\"""
 print('~ Start of example: "+=" assignment operator usage ~')
 Add&AssignExample = input('Variable \"Add&AssignExample\" was just created. Please, assign a value to it: ')) 
 print ('Thanks, now the value of the variable \"Add&AssignExample\" is:',Add&AssignExample)
 print('~ Finish of the example: "+=" assignment operator usage ~')
 print()
-
+\"""
 #! REMEMBER TO TAKE 10 MINUTES BREAKES EVERY 50 MINUTES OF READING. WALKING OUTSIDE AND DRINKING WATER IS ADVISED.
+
+-ENTERING WORK IN PROGRESS AREA!!!-
 
 # Control flow statements: Tools that allow you to control the flow of your program
 # Types: There are fourteen (14) different statements: if, else, elif, while, for, break, continue, pass, try/except, raise, assert, with, try/finally, and async/await
@@ -494,17 +509,21 @@ print()
 #-Capabilities: conditional logic, comparison operators, boolean logic, nested 'if' statements
 #-Limitations: limited to boolean expressions, only one condition per statement, no automatic type conversion, code indentation
 
+\"""
 if integer_example > float_example:
 print(integer_example, 'is greater than', float_example)
+\"""
 
 # Else statement
 #-Capabilities: alternative logic, nested 'if-else' statements, multiple 'else' statements
 #-Limitations: limited to boolean expressions, no condition evaluation, code indentation
 
+\"""
 if float_example > integer_example:
 print(float_example, 'is greater than', integer_example)
 else
 print(float_example, 'is not greater than', integer_example)
+\"""
 
 # Elif (else if)
 
